@@ -1,7 +1,7 @@
 module.exports = function getZerosCount(number) {
   let arr = [];
-  for (let i = 0; i <= number; i++) {
-    let counter = i + 1;
+  for (let i = 1; i <= number; i++) {
+    let counter = i;
     while (counter % 5 == 0) {
       counter = counter / 5;
       arr.push('x');
